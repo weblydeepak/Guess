@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="GameOutput">
+        <header>
+          <button id="Agaiin" class="Left">Again !</button>
+          <p class="Right"><img src="./src/left.svg" alt="Left"> Between 1 and 20 <img src="./src/Right.svg" alt="Right"></p>
+          
+        </header>
+        <h3 class="Textt">Guess My Number!</h3>
+        <div class="whiteBox" id="Output">?</div>
+    </div>
+    <hr class="guessLine">
+    <div class="GameInput">
+        <form class="InputSection" action="InputSection">
+            <input type="number" id="guessInput" name="guessInput" required>
+             <button type="submit">Check</button>
+        </form> 
+        <div class="TextSection">
+            <h6>Start guessing....</h6>
+            <div class="ScoreDetail">
+            <p><img src="./src/Hundred.svg" alt="image not found"> Score: <span class="Score">20</span></p>
+            <p><img src="./src//Medal.svg" alt="image not found"> Highscore: <span class="HighScore">0</span></p>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
