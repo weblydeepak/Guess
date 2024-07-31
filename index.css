@@ -31,6 +31,7 @@ header{
     text-align: center;
     font-size: 24px;
     margin: 9vh;
+    cursor: pointer;
 }
 hr{
     height: 5px;
@@ -63,7 +64,7 @@ hr{
 .InputSection>input{
     width: 170px;
     height: 80px;
-    padding: 10px;
+    padding: 15px;
     border: none;
     font-size: 2rem;
     border-radius: 5px;
@@ -92,4 +93,7 @@ hr{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.OutputColor{
+    background-color: greenyellow;
 }

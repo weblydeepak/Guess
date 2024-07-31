@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <div class="GameOutput">
         <header>
-          <button id="Agaiin" class="Left">Again !</button>
+          <button id="Again" class="Left">Again !</button>
           <p class="Right"><img src="./src/left.svg" alt="Left"> Between 1 and 20 <img src="./src/Right.svg" alt="Right"></p>
           
         </header>
@@ -18,15 +19,15 @@
     </div>
     <hr class="guessLine">
     <div class="GameInput">
-        <form class="InputSection" action="InputSection">
-            <input type="number" id="guessInput" name="guessInput" required>
-             <button type="submit">Check</button>
+        <form class="InputSection" >
+            <input type="number" id="guessInput"required>
+             <button id="guessBtn" >Check</button>
         </form> 
         <div class="TextSection">
-            <h6>Start guessing....</h6>
+            <h6 class="guessingStatus">Start guessing....</h6>
             <div class="ScoreDetail">
-            <p><img src="./src/Hundred.svg" alt="image not found"> Score: <span class="Score">20</span></p>
-            <p><img src="./src//Medal.svg" alt="image not found"> Highscore: <span class="HighScore">0</span></p>
+            <p ><img src="./src/Hundred.svg" alt="image not found"> Score: <span id="gameSCore">20</span></p>
+            <p ><img src="./src//Medal.svg" alt="image not found"> Highscore: <span id="gameHighScore">0</span></p>
             </div>
         </div>
         </div>
